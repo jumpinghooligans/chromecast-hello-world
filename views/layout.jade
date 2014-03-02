@@ -5,10 +5,8 @@ html
 		link(rel='stylesheet', href='/stylesheets/bootstrap.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
 
-		script(type='text/javascript', src='//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js')
 		script(type='text/javascript', src='//www.gstatic.com/cast/sdk/libs/mediaplayer/0.3.0/media_player.js')
 		script(type='text/javascript', src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-		script(type='text/javascript', src='/javascripts/scripts.js')
 	body
 		#container
 			#header
@@ -18,5 +16,6 @@ html
 					li: a(href='/') Home
 					li: a(href='/users') Users
 					li: a(href='/receiver') Receiver
+					li: a(href='/sender') Sender
 			#body
 				block content

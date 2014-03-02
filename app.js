@@ -14,6 +14,7 @@ var db = require('./models/db');
 
 var user = require('./routes/user');
 var receiver = require('./routes/receiver');
+var sender = require('./routes/sender');
 
 var app = express();
 
@@ -39,6 +40,8 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 
 app.get('/receiver', receiver.index);
+
+app.get('/sender', sender.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

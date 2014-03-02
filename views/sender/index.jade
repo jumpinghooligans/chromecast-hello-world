@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+	#sender
+		form(method='get', action='JavaScript:update();')
+			input(type='text', id='input')
+	hr
+	#debugmessage
+
+	script(type='text/javascript', src='http://www.gstatic.com/cv/js/sender/v1/cast_sender.js')
+	script(type='text/javascript', src='javascripts/sender.js')
