@@ -1,0 +1,7 @@
+extends ../layout
+
+block content
+	h3= title
+	ul
+		each user in users
+			li= user.username
