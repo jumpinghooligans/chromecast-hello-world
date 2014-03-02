@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "chromecast-hello-world",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,5 +11,25 @@
     "stylus": "*",
     "connect": "*",
     "mongoose": "*"
+  },
+  "description": "chromecast-hello-world ======================",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jumpinghooligans/chromecast-hello-world"
+  },
+  "keywords": [
+    "chromecast",
+    "hello",
+    "world"
+  ],
+  "author": "Ryan Kortmann",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jumpinghooligans/chromecast-hello-world/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }

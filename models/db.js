@@ -9,4 +9,5 @@ var userSchema = new mongoose.Schema({
 
 mongoose.model("User", userSchema);
 
-mongoose.connect("mongodb://localhost/chromecast-hello-world");
+console.log(global.dbURL);
+mongoose.connect(global.dbURL);

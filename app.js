@@ -8,6 +8,8 @@ var routes = require('./routes');
 
 var http = require('http');
 var path = require('path');
+
+global.dbURL = process.env.MONGOHQ_URL || "mongodb://localhost/chromecast-hello-world";
 var db = require('./models/db');
 
 var user = require('./routes/user');
