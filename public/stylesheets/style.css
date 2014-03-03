@@ -40,3 +40,8 @@ a {
   float: left;
   padding: 1em;
 }
+#receiver {
+  width: 800px;
+  margin: 1em auto;
+  text-align: center;
+}
